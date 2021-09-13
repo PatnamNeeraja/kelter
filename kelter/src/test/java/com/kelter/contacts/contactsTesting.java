@@ -1,12 +1,14 @@
 package com.kelter.contacts;
 
+import org.testng.annotations.Test;
+
 import com.kelter.Leads.LoginPageTest;
 import com.kelter.pages.ContactTabPages;
 import com.kelter.pages.NewContactPages;
 
 public class contactsTesting {
-	
-	public static void main(String args[]) throws Throwable {
+	@Test 
+	public  void Contacts() throws Throwable {
 		
 		LoginPageTest ln = new LoginPageTest();
 		ln.LoginPage();
